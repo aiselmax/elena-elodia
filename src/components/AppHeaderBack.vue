@@ -8,16 +8,16 @@
     <template v-slot:image>
       <v-img src="@/assets/header.webp"></v-img>
     </template>
-    <v-container class="d-none d-sm-flex">
+    <v-container class="d-sm-flex">
       <router-link to="/"
         ><v-btn
-          variant="text"
+          variant="plain"
           size="x-large"
           :ripple="false"
           class="menuitem active"
         >
-          <v-icon start icon="mdi-arrow-left"></v-icon>
-          Zurück zur Startseite</v-btn
+          <v-icon start icon="mdi-arrow-left-bold-outline"></v-icon>
+          Zurück</v-btn
         >
       </router-link>
     </v-container>

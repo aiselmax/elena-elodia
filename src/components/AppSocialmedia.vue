@@ -1,15 +1,19 @@
 <template>
-  <v-row class="socialRow my-10">
+  <v-row no-gutters class="socialRow my-10">
     <v-col
       v-for="(button, index) in socialmediaItems"
       :key="index"
-      cols="2"
-      sm="2"
-      no-gutters
+      cols="12"
+      md="6"
+      lg="4"
     >
       <v-btn size="x-large" variant="plain" :href="button.link" target="_blank">
-        <Transition name="bounce">
-          <div v-show="isIntersecting" class="mb-15 pa-5 socialBtn">
+        <Transition name="bounce" :css="!isMobile">
+          <div
+            v-show="isIntersecting || isMobile"
+            class="mb-15 pa-5"
+            :class="{ socialBtn: false }"
+          >
             <v-icon start :icon="button.icon"></v-icon>
             {{ button.label }}
           </div>
@@ -26,6 +30,11 @@ import { defineComponent } from "vue";
 export default defineComponent({
   props: {
     isIntersecting: Boolean,
+  },
+  computed: {
+    isMobile() {
+      return this.$vuetify.display.mobile;
+    },
   },
   data() {
     return {

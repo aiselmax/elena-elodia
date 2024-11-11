@@ -52,7 +52,7 @@
       </v-col>
     </v-row>
     <v-btn class="me-4" type="submit"> Senden </v-btn>
-    <v-btn variant="text" @click="handleReset"> löschen </v-btn>
+    <v-btn variant="plain" @click="handleReset"> löschen </v-btn>
     <div class="my-5">
       <App-Alert :type="alertType.value" :message="setError"></App-Alert>
     </div>

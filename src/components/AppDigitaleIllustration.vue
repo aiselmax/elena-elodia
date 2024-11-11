@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Digitale Illustrationen</h1></v-card-title>
+      <v-card-title><h2>Digitale Illustrationen</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Eine gute digitale Illustration ist eine, die sowohl ästhetisch
@@ -13,21 +13,21 @@
         </p>
         <v-list>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
             <b>Kreativität:</b>
             Eine gute digitale Illustration sollte kreativ und einzigartig sein.
             Der Künstler sollte seine eigene Persönlichkeit und seinen eigenen
             Stil in das Werk einbringen.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
             <b>Technische Fähigkeiten:</b>
             Der Künstler sollte über gute technische Fähigkeiten verfügen, um
             die Illustration auf professionellem Niveau zu erstellen. Dazu
             gehören Kenntnisse in der Farbtheorie, Komposition und Perspektive.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
             <b>Ästhetik:</b>
             Eine gute digitale Illustration sollte ästhetisch ansprechend sein
             und den Betrachter faszinieren.

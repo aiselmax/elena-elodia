@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Buchillustration</h1></v-card-title>
+      <v-card-title><h2>Buchillustration</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Buchillustrationen sind eine wichtige Ergänzung zu Texten und können

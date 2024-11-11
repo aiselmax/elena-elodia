@@ -1,5 +1,6 @@
 <template>
   <v-btn
+    v-if="!isMobile"
     size="large"
     @click="scrollToSection"
     fab
@@ -22,6 +23,9 @@ export default defineComponent({
     },
   },
   computed: {
+    isMobile() {
+      return this.$vuetify.display.mobile;
+    },
     sectionIds() {
       const sections = document.querySelectorAll("section[id]");
       return Array.from(sections).map((section) => section.id);
@@ -30,7 +34,7 @@ export default defineComponent({
   data() {
     return {
       nextSectionId: this.currentSection,
-      icon: "mdi-arrow-down",
+      icon: "mdi-arrow-down-bold-outline",
     };
   },
   watch: {
@@ -39,10 +43,10 @@ export default defineComponent({
       const nextIndex = index + 1;
       if (nextIndex >= this.sectionIds.length) {
         this.nextSectionId = this.sectionIds[0];
-        this.icon = "mdi-arrow-up";
+        this.icon = "mdi-arrow-up-bold-outline";
       } else {
         this.nextSectionId = this.sectionIds[nextIndex];
-        this.icon = "mdi-arrow-down";
+        this.icon = "mdi-arrow-down-bold-outline";
       }
     },
   },

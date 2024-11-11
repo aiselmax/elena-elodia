@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Design von Flyern</h1></v-card-title>
+      <v-card-title><h2>Design von Flyern</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Flyer sind ein wichtiges Marketinginstrument, um Informationen über

@@ -9,7 +9,7 @@
       <v-img src="@/assets/header.webp"></v-img>
     </template>
     <v-app-bar-nav-icon
-      variant="text"
+      variant="plain"
       @click.stop="drawer = !drawer"
       class="d-md-none"
     ></v-app-bar-nav-icon>
@@ -18,7 +18,7 @@
         v-for="(item, i) in menuItems"
         :key="i"
         :data-text="item.id"
-        variant="text"
+        variant="plain"
         size="x-large"
         @click="scrollToSection(item.id)"
         :ripple="false"

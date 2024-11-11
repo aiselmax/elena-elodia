@@ -3,7 +3,7 @@
     <v-card class="my-5">
       <v-row no-gutters>
         <v-col cols="12">
-          <v-card-title class="my-5"><h1>Elena Elodia Art</h1></v-card-title>
+          <v-card-title class="my-5"><h2>Elena Elodia Art</h2></v-card-title>
           <v-card-text>
             <p class="my-5">
               Ich bin ein passionierter Künstler und ich liebe es, meine Bilder

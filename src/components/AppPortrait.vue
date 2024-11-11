@@ -2,8 +2,8 @@
   <v-container>
     <v-card class="my-5">
       <v-row no-gutters>
-        <v-col cols="6" class="py-5">
-          <v-card-title><h1>Portrait-Illustration</h1></v-card-title>
+        <v-col cols="12" md="6" class="py-5">
+          <v-card-title><h2>Portrait-Illustration</h2></v-card-title>
           <v-card-text class="my-5">
             <p>
               Portraitillustrationen sind eine künstlerische Darstellung von
@@ -16,13 +16,13 @@
             </p>
           </v-card-text>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <v-img
             src="@/assets/ill/08_illustration.webp"
             alt="Portrait-Illustration"
           />
         </v-col>
-        <v-col cols="6">
+        <v-col ccols="12" md="6">
           <v-card-title>
             <h4>Wofür kann man Portrait-Illustration verwenden?</h4>
           </v-card-title>
@@ -55,7 +55,7 @@
             </v-list>
           </v-card-text>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <v-card-title>
             <h4>Was macht eine gute Portrait-Illustration aus?</h4>
           </v-card-title>
@@ -63,7 +63,7 @@
             <v-list>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
+                  <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                   <b>Sie ist ansprechend und fällt ins Auge.</b>
                 </v-list-item-title>
                 Das Portrait sollte den Betrachter dazu einladen, es genauer zu
@@ -72,7 +72,7 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
+                  <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                   <b>
                     Sie ist authentisch und fängt die Persönlichkeit des
                     Porträtierten ein.
@@ -85,7 +85,7 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
+                  <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                   <b>Sie ist technisch gut ausgeführt.</b>
                 </v-list-item-title>
                 Das Portrait sollte sorgfältig ausgearbeitet sein.

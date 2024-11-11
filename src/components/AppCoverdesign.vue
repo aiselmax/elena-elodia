@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Coverdesign</h1></v-card-title>
+      <v-card-title><h2>Coverdesign</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Das Coverdesign spielt eine entscheidende Rolle in der Welt der

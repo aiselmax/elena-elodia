@@ -7,7 +7,12 @@
         <ul style="list-style-type: none">
           <li v-for="item in convertedText" :key="item">
             <router-link :to="getLink(item)">
-              <v-btn variant="plain">{{ item }}</v-btn>
+              <v-btn
+                variant="plain"
+                prepend-icon="mdi-arrow-right-bold-outline"
+              >
+                {{ item }}
+              </v-btn>
             </router-link>
           </li>
         </ul>

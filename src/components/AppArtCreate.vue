@@ -4,7 +4,7 @@
       <v-row no-gutters>
         <v-col cols="12">
           <v-card-title class="my-5">
-            <h1>Erschaffen eines Bildes nach Ihren Wünschen</h1>
+            <h2>Erschaffen eines Bildes nach Ihren Wünschen</h2>
           </v-card-title>
           <v-card-text>
             <p class="my-5">
@@ -20,21 +20,21 @@
             </p>
             <v-list>
               <v-list-item>
-                <v-icon>mdi-check</v-icon>
+                <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                 Ich bin eine erfahrenere Künstlerin mit einem Gespür für
                 Ästhetik. Ich habe jahrelange Erfahrung in der Erstellung von
                 Kunstwerken und ich weiß, wie man ein Kunstwerk schafft, das
                 sowohl schön als auch ansprechend ist.
               </v-list-item>
               <v-list-item>
-                <v-icon>mdi-check</v-icon>
+                <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                 Ich arbeite mit Ihnen zusammen, um Ihre Vision zu verwirklichen.
                 Ich möchte, dass Sie mit Ihrem Kunstwerk rundum zufrieden sind.
                 Deshalb arbeite ich mit Ihnen zusammen, um ein Kunstwerk zu
                 kreieren, das Ihren Vorstellungen entspricht.
               </v-list-item>
               <v-list-item>
-                <v-icon>mdi-check</v-icon>
+                <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
                 Ich bin flexibel und anpassungsfähig. Egal, ob Sie ein
                 traditionelles Gemälde, ein abstraktes Kunstwerk oder etwas ganz
                 anderes suchen, ich kann Ihnen helfen.

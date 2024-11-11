@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Gestaltung von Broschüren</h1></v-card-title>
+      <v-card-title><h2>Gestaltung von Broschüren</h2></v-card-title>
       <v-card-text class="my-5">
         <v-row>
-          <v-col cols="6">
+          <v-col cols="12" md="6">
             <v-list>
               <v-list-item>
                 Broschüren sind ein wichtiges Marketinginstrument, um
@@ -24,7 +24,7 @@
               </v-list-item>
             </v-list>
           </v-col>
-          <v-col cols="6">
+          <v-col>
             <v-list>
               <v-list-item>
                 <b>Klare Struktur:</b> Eine klare Struktur ist entscheidend, um

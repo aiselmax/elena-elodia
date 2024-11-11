@@ -6,9 +6,9 @@
         <v-card-text>
           <div class="my-5">
             <div class="text-h4 my-5">{{ title }}</div>
-            <div class="text-h5">{{ callToAction }}</div>
+            <p>{{ callToAction }}</p>
             <AppSocialmedia :isIntersecting="isIntersecting" />
-            <div class="text-h5">{{ text }}</div>
+            <p>{{ text }}</p>
           </div>
           <AppContactForm />
         </v-card-text>
@@ -45,7 +45,7 @@ export default defineComponent({
     },
     title: {
       type: String,
-      default: "Sie haben eine Idee für ein Projekt?",
+      default: "Haben Sie eine Idee für ein Projekt?",
     },
     callToAction: {
       type: String,

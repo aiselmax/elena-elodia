@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Gestallung von Visitenkarten</h1></v-card-title>
+      <v-card-title><h2>Gestallung von Visitenkarten</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Visitenkarten sind ein wichtiger Bestandteil des Geschäftslebens. Sie

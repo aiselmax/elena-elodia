@@ -3,7 +3,10 @@ vue
   <v-list>
     <v-list-item>
       <v-list-item-title>
-        <p class="text-h6"><v-icon>mdi-check</v-icon> {{ aboutItem.title }}</p>
+        <p class="text-h6">
+          <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
+          {{ aboutItem.title }}
+        </p>
       </v-list-item-title>
       <v-list-item-title>{{ aboutItem.type }}</v-list-item-title>
       <v-list-item-subtitle>{{ aboutItem.subtitle }}</v-list-item-subtitle>

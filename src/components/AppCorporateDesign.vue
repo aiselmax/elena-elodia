@@ -2,8 +2,8 @@
   <v-container>
     <v-card class="my-5">
       <v-row no-gutters>
-        <v-col cols="6" class="py-5">
-          <v-card-title><h1>Corporate Design</h1></v-card-title>
+        <v-col cols="12" sm="6" class="py-5">
+          <v-card-title> <h2>Corporate Design</h2> </v-card-title>
           <v-card-text class="my-5">
             <p>
               Corporate Design (CD) ist der visuelle Auftritt eines
@@ -16,7 +16,7 @@
             </p>
           </v-card-text>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" sm="6">
           <v-img src="@/assets/design/03_design.webp" alt="Corporate Design" />
         </v-col>
         <v-col cols="12">
@@ -28,8 +28,10 @@
             <v-list>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
-                  <b>Wiedererkennungswert</b>
+                  <div class="text-h6">
+                    <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
+                    Wiedererkennungswert
+                  </div>
                 </v-list-item-title>
 
                 Ein einheitliches Erscheinungsbild sorgt für einen hohen
@@ -38,18 +40,21 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
-                  <b>Professionalität</b>
+                  <div class="text-h6">
+                    <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
+                    Professionalität
+                  </div>
                 </v-list-item-title>
-
                 Ein gut durchdachtes Corporate Design vermittelt ein
                 professionelles Image. Es zeigt, dass das Unternehmen sich
                 Gedanken über seine visuelle Kommunikation macht.
               </v-list-item>
               <v-list-item>
                 <v-list-item-title>
-                  <v-icon>mdi-check</v-icon>
-                  <b>Vertrauenswürdigkeit</b>
+                  <div class="text-h6">
+                    <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
+                    Vertrauenswürdigkeit
+                  </div>
                 </v-list-item-title>
 
                 Ein einheitliches Erscheinungsbild schafft Vertrauen. Kunden und

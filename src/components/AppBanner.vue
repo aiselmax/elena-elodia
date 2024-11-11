@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mt-5 py-5">
-      <v-card-title><h1>Design von Bannern</h1></v-card-title>
+      <v-card-title><h2>Design von Bannern</h2></v-card-title>
       <v-card-text class="my-5">
         <p>
           Banner sind eine effektive Möglichkeit, um Aufmerksamkeit zu erregen

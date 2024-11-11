@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card>
-      <v-card-title class="my-5"><h1>Firmenlogo</h1></v-card-title>
+      <v-card-title class="my-5"><h2>Firmenlogo</h2></v-card-title>
       <v-card-text>
         <p>
           Ein Firmenlogo ist ein wichtiger Bestandteil der Corporate Identity
@@ -11,31 +11,31 @@
         </p>
         <v-list>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
 
             Eindeutigkeit: Das Logo sollte einzigartig sein und sich von anderen
             Logos unterscheiden, um eine klare Wiedererkennung zu gewährleisten.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
 
             Einfachheit: Ein gutes Logo sollte einfach und leicht verständlich
             sein, um schnell im Gedächtnis zu bleiben.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
 
             Wiedererkennbarkeit: Das Logo sollte auch in kleiner Größe und in
             Schwarz-Weiß gut erkennbar sein.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
 
             Zeitlosigkeit: Ein gutes Logo sollte auch nach Jahren noch aktuell
             und modern wirken.
           </v-list-item>
           <v-list-item>
-            <v-icon>mdi-check</v-icon>
+            <v-icon icon="mdi-check-outline" size="x-small"></v-icon>
 
             Passend zum Unternehmen: Das Logo sollte die Werte und Ziele des
             Unternehmens widerspiegeln und zur Zielgruppe passen.

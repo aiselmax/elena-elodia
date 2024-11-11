@@ -1,7 +1,7 @@
 <template>
   <v-footer border>
     <v-container class="text-right">
-      <v-btn @click="dialog = true" variant="text"> Impressum </v-btn>
+      <v-btn @click="dialog = true" variant="plain"> Impressum </v-btn>
       <v-dialog v-model="dialog" transition="dialog-bottom-transition">
         <v-container>
           <v-card>
