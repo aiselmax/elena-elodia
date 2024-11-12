@@ -8,9 +8,9 @@
       </v-card-title>
       <v-card-text>
         <p class="my-5">{{ text }}</p>
-        <Transition name="slide-fade">
+        <Transition name="slide-fade" :css="!isMobile">
           <v-carousel
-            v-show="isIntersecting"
+            v-show="isIntersecting || isMobile"
             hide-delimiter-background
             show-arrows="hover"
           >
@@ -56,6 +56,11 @@ export default defineComponent({
     isIntersecting: {
       type: Boolean,
       required: true,
+    },
+  },
+  computed: {
+    isMobile() {
+      return this.$vuetify.display.mobile;
     },
   },
   methods: {
